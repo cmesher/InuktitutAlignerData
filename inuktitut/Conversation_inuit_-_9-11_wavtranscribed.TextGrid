@@ -5703,7 +5703,7 @@ item []:
         intervals [238]:
             xmin = 509.876 
             xmax = 515.9879999999999 
-            text = "sounding" 
+            text = "ilinnianilirijikkuni angajurqaannguvunga sitamik katimajiqarsungalu" 
         intervals [239]:
             xmin = 515.9879999999999 
             xmax = 516.612 
@@ -5711,7 +5711,7 @@ item []:
         intervals [240]:
             xmin = 516.612 
             xmax = 521.428 
-            text = "sounding" 
+            text = "allatiqarsungalu siajamik kiinaujalirijiqarsungalu miajimik" 
         intervals [241]:
             xmin = 521.428 
             xmax = 523.9879999999999 
@@ -5719,7 +5719,7 @@ item []:
         intervals [242]:
             xmin = 523.9879999999999 
             xmax = 525.78 
-            text = "sounding" 
+            text = "ai allatiuvunga" 
         intervals [243]:
             xmin = 525.78 
             xmax = 527.444 
@@ -5727,7 +5727,7 @@ item []:
         intervals [244]:
             xmin = 527.444 
             xmax = 529.38 
-            text = "sounding" 
+            text = "ai kiinaujalirijiuvunga" 
         intervals [245]:
             xmin = 529.38 
             xmax = 530.788 
@@ -5735,7 +5735,7 @@ item []:
         intervals [246]:
             xmin = 530.788 
             xmax = 531.316 
-            text = "sounding" 
+            text = "aa" 
         intervals [247]:
             xmin = 531.316 
             xmax = 534.452 
@@ -5743,7 +5743,7 @@ item []:
         intervals [248]:
             xmin = 534.452 
             xmax = 535.012 
-            text = "sounding" 
+            text = "aa" 
         intervals [249]:
             xmin = 535.012 
             xmax = 536.596 
@@ -5751,7 +5751,7 @@ item []:
         intervals [250]:
             xmin = 536.596 
             xmax = 539.108 
-            text = "sounding" 
+            text = "katimajiillu ilinniatitsijiillu" 
         intervals [251]:
             xmin = 539.108 
             xmax = 540.788 
@@ -5759,7 +5759,7 @@ item []:
         intervals [252]:
             xmin = 540.788 
             xmax = 542.9639999999999 
-            text = "sounding" 
+            text = "qaituarpata pigialangasivugut" 
         intervals [253]:
             xmin = 542.9639999999999 
             xmax = 545.588 
@@ -5767,7 +5767,7 @@ item []:
         intervals [254]:
             xmin = 545.588 
             xmax = 548.772 
-            text = "sounding" 
+            text = "itirmata katimajiillu ilinniatitsijiillu" 
         intervals [255]:
             xmin = 548.772 
             xmax = 552.436 
@@ -5775,7 +5775,7 @@ item []:
         intervals [256]:
             xmin = 552.436 
             xmax = 553.412 
-            text = "sounding" 
+            text = "itsivagitsi" 
         intervals [257]:
             xmin = 553.412 
             xmax = 555.764 
@@ -5783,7 +5783,7 @@ item []:
         intervals [258]:
             xmin = 555.764 
             xmax = 556.148 
-            text = "sounding" 
+            text = "aa" 
         intervals [259]:
             xmin = 556.148 
             xmax = 557.556 
@@ -5791,7 +5791,7 @@ item []:
         intervals [260]:
             xmin = 557.556 
             xmax = 557.86 
-            text = "sounding" 
+            text = "aa" 
         intervals [261]:
             xmin = 557.86 
             xmax = 560.836 
@@ -5799,7 +5799,7 @@ item []:
         intervals [262]:
             xmin = 560.836 
             xmax = 565.908 
-            text = "sounding" 
+            text = "ilinniatiit ilinnialaartut alliriirpata sitimpiri 20-mi" 
         intervals [263]:
             xmin = 565.908 
             xmax = 568.436 
@@ -5807,7 +5807,7 @@ item []:
         intervals [264]:
             xmin = 568.436 
             xmax = 569.78 
-            text = "sounding" 
+            text = "qanga nurqalaarqat" 
         intervals [265]:
             xmin = 569.78 
             xmax = 572.66 
@@ -5815,7 +5815,7 @@ item []:
         intervals [266]:
             xmin = 572.66 
             xmax = 576.644 
-            text = "sounding" 
+            text = "sivullipaami, quviasuvvimi tisimpiri 19-mi " 
         intervals [267]:
             xmin = 576.644 
             xmax = 577.412 
@@ -5823,15 +5823,15 @@ item []:
         intervals [268]:
             xmin = 577.412 
             xmax = 578.276 
-            text = "sounding" 
+            text = "nurqalaartut" 
         intervals [269]:
             xmin = 578.276 
-            xmax = 582.372 
+            xmax = 582.0885838131404 
             text = "silent" 
         intervals [270]:
-            xmin = 582.372 
+            xmin = 582.0885838131404 
             xmax = 585.204 
-            text = "sounding" 
+            text = "qatsingurpat pigiaqattalangavat" 
         intervals [271]:
             xmin = 585.204 
             xmax = 587.62 
@@ -5839,7 +5839,7 @@ item []:
         intervals [272]:
             xmin = 587.62 
             xmax = 590.004 
-            text = "sounding" 
+            text = "9-nngupat ullaakut pigiarlutik" 
         intervals [273]:
             xmin = 590.004 
             xmax = 591.06 
@@ -5847,7 +5847,7 @@ item []:
         intervals [274]:
             xmin = 591.06 
             xmax = 593.54 
-            text = "sounding" 
+            text = "4-nngumut unnusakkut nurqalutik" 
         intervals [275]:
             xmin = 593.54 
             xmax = 597.508 
@@ -5855,7 +5855,7 @@ item []:
         intervals [276]:
             xmin = 597.508 
             xmax = 603.636 
-            text = "sounding" 
+            text = "taakkua ilinniatitsijiit inuttitut paasalu, jaakusilu paulusilu" 
         intervals [277]:
             xmin = 603.636 
             xmax = 606.9 
@@ -5863,7 +5863,7 @@ item []:
         intervals [278]:
             xmin = 606.9 
             xmax = 612.9 
-            text = "sounding" 
+            text = "ilinniatiit mikinirpaat inuttitut ilinnialaartut ilinniatitsijiqarlutik" 
         intervals [279]:
             xmin = 612.9 
             xmax = 613.492 
@@ -5871,7 +5871,7 @@ item []:
         intervals [280]:
             xmin = 613.492 
             xmax = 614.116 
-            text = "sounding" 
+            text = "paasamik" 
         intervals [281]:
             xmin = 614.116 
             xmax = 617.284 
@@ -5879,7 +5879,7 @@ item []:
         intervals [282]:
             xmin = 617.284 
             xmax = 622.1 
-            text = "sounding" 
+            text = "ilinniatit anginirsait ilinniatitsiqalaartut jaakusimik" 
         intervals [283]:
             xmin = 622.1 
             xmax = 626.628 
@@ -5887,7 +5887,7 @@ item []:
         intervals [284]:
             xmin = 626.628 
             xmax = 629.652 
-            text = "sounding" 
+            text = "ilinniatitsiqattalaartunga maqainnimillu" 
         intervals [285]:
             xmin = 629.652 
             xmax = 631.188 
@@ -5895,7 +5895,7 @@ item []:
         intervals [286]:
             xmin = 631.188 
             xmax = 632.26 
-            text = "sounding" 
+            text = "maqaigutinillu" 
         intervals [287]:
             xmin = 632.26 
             xmax = 634.756 
@@ -5903,23 +5903,23 @@ item []:
         intervals [288]:
             xmin = 634.756 
             xmax = 637.396 
-            text = "sounding" 
+            text = "ilinniatiit qanga qaiqujaulaargat" 
         intervals [289]:
             xmin = 637.396 
             xmax = 639.908 
             text = "silent" 
         intervals [290]:
             xmin = 639.908 
-            xmax = 643.3 
-            text = "sounding" 
+            xmax = 643.5789437903976 
+            text = "ullumiluunniit qauppaluunniit qaiqujaugunnatut" 
         intervals [291]:
-            xmin = 643.3 
+            xmin = 643.5789437903976 
             xmax = 647.236 
             text = "silent" 
         intervals [292]:
             xmin = 647.236 
             xmax = 649.876 
-            text = "sounding" 
+            text = "ullumi qaiqujautuarpata piujiuq" 
         intervals [293]:
             xmin = 649.876 
             xmax = 652.868 
@@ -5927,7 +5927,7 @@ item []:
         intervals [294]:
             xmin = 652.868 
             xmax = 657.108 
-            text = "sounding" 
+            text = "ullumi qaiqujaulangajut ilinniatitsijinnut takujaulutik" 
         intervals [295]:
             xmin = 657.108 
             xmax = 662.148 
@@ -5935,7 +5935,7 @@ item []:
         intervals [296]:
             xmin = 662.148 
             xmax = 663.476 
-            text = "sounding" 
+            text = "" 
         intervals [297]:
             xmin = 663.476 
             xmax = 664.084 
@@ -7020,12 +7020,12 @@ item []:
             text = "imirtagiaqarannuk imirtavimmut" 
         intervals [199]:
             xmin = 430.34 
-            xmax = 433.348 
+            xmax = 433.2234709779094 
             text = "silent" 
         intervals [200]:
-            xmin = 433.348 
+            xmin = 433.2234709779094 
             xmax = 435.236 
-            text = "sounding" 
+            text = "ukiuraaluummat quarsimajuq" 
         intervals [201]:
             xmin = 435.236 
             xmax = 436.452 
@@ -7033,7 +7033,7 @@ item []:
         intervals [202]:
             xmin = 436.452 
             xmax = 438.292 
-            text = "sounding" 
+            text = "aa quarsimajualuk" 
         intervals [203]:
             xmin = 438.292 
             xmax = 441.524 
@@ -7041,7 +7041,7 @@ item []:
         intervals [204]:
             xmin = 441.524 
             xmax = 442.61199999999997 
-            text = "sounding" 
+            text = "ulimautiqarqinuk" 
         intervals [205]:
             xmin = 442.61199999999997 
             xmax = 443.796 
@@ -7049,7 +7049,7 @@ item []:
         intervals [206]:
             xmin = 443.796 
             xmax = 445.956 
-            text = "sounding" 
+            text = "aa una tagga ulimautik" 
         intervals [207]:
             xmin = 445.956 
             xmax = 446.596 
@@ -7057,7 +7057,7 @@ item []:
         intervals [208]:
             xmin = 446.596 
             xmax = 448.292 
-            text = "sounding" 
+            text = "qailiruk ulimaasijara" 
         intervals [209]:
             xmin = 448.292 
             xmax = 450.42 
@@ -7065,7 +7065,7 @@ item []:
         intervals [210]:
             xmin = 450.42 
             xmax = 450.948 
-            text = "sounding" 
+            text = "taima" 
         intervals [211]:
             xmin = 450.948 
             xmax = 451.63599999999997 
@@ -7073,15 +7073,15 @@ item []:
         intervals [212]:
             xmin = 451.63599999999997 
             xmax = 453.412 
-            text = "sounding" 
+            text = "killaquq imirtautiup" 
         intervals [213]:
             xmin = 453.412 
-            xmax = 453.972 
+            xmax = 453.76125994271297 
             text = "silent" 
         intervals [214]:
-            xmin = 453.972 
+            xmin = 453.76125994271297 
             xmax = 454.836 
-            text = "sounding" 
+            text = "tursuanga qailiruk" 
         intervals [215]:
             xmin = 454.836 
             xmax = 456.58 
@@ -7089,7 +7089,7 @@ item []:
         intervals [216]:
             xmin = 456.58 
             xmax = 458.74 
-            text = "sounding" 
+            text = "taimaak taimaak tatappuq" 
         intervals [217]:
             xmin = 458.74 
             xmax = 459.46 
@@ -7097,15 +7097,15 @@ item []:
         intervals [218]:
             xmin = 459.46 
             xmax = 464.308 
-            text = "sounding" 
+            text = "namunngaqaasivinuk ittukunnut imirtasivuguk imaqatsiangimmata" 
         intervals [219]:
             xmin = 464.308 
-            xmax = 466.724 
+            xmax = 466.4878857811498 
             text = "silent" 
         intervals [220]:
-            xmin = 466.724 
+            xmin = 466.4878857811498 
             xmax = 467.348 
-            text = "sounding" 
+            text = "upinnarani" 
         intervals [221]:
             xmin = 467.348 
             xmax = 468.65999999999997 
@@ -7113,15 +7113,15 @@ item []:
         intervals [222]:
             xmin = 468.65999999999997 
             xmax = 469.63599999999997 
-            text = "sounding" 
+            text = "amisualuugamik" 
         intervals [223]:
             xmin = 469.63599999999997 
-            xmax = 470.388 
+            xmax = 470.0751910329819 
             text = "silent" 
         intervals [224]:
-            xmin = 470.388 
+            xmin = 470.0751910329819 
             xmax = 470.74 
-            text = "sounding" 
+            text = "ittukut" 
         intervals [225]:
             xmin = 470.74 
             xmax = 471.54 
@@ -7129,7 +7129,7 @@ item []:
         intervals [226]:
             xmin = 471.54 
             xmax = 477.476 
-            text = "sounding" 
+            text = "nakurmat imirtatausijugut imaqatsiarunnairatta imaqatsiarunnaiqisi" 
         intervals [227]:
             xmin = 477.476 
             xmax = 478.5 
@@ -7137,7 +7137,7 @@ item []:
         intervals [228]:
             xmin = 478.5 
             xmax = 480.468 
-            text = "sounding" 
+            text = "aa amisualuugatta" 
         intervals [229]:
             xmin = 480.468 
             xmax = 481.156 
@@ -7145,7 +7145,7 @@ item []:
         intervals [230]:
             xmin = 481.156 
             xmax = 482.068 
-            text = "sounding" 
+            text = "tatalangajuq" 
         intervals [231]:
             xmin = 482.068 
             xmax = 483.7 
@@ -7153,7 +7153,7 @@ item []:
         intervals [232]:
             xmin = 483.7 
             xmax = 489.156 
-            text = "sounding" 
+            text = "aa tatallugu amisualuummata taimaak taimaak tatappuq" 
         intervals [233]:
             xmin = 489.156 
             xmax = 492.98 
@@ -7409,7 +7409,7 @@ item []:
         intervals [296]:
             xmin = 662.148 
             xmax = 663.476 
-            text = "sounding" 
+            text = "ilinnianilirijikkuni" 
         intervals [297]:
             xmin = 663.476 
             xmax = 664.084 
@@ -7417,7 +7417,7 @@ item []:
         intervals [298]:
             xmin = 664.084 
             xmax = 667.54 
-            text = "sounding" 
+            text = "angajurqaanguvunga sitamanik katimajiqarsungalu" 
         intervals [299]:
             xmin = 667.54 
             xmax = 668.18 
@@ -7425,7 +7425,7 @@ item []:
         intervals [300]:
             xmin = 668.18 
             xmax = 669.22 
-            text = "sounding" 
+            text = "allatiqarsungalu" 
         intervals [301]:
             xmin = 669.22 
             xmax = 669.892 
@@ -7433,7 +7433,7 @@ item []:
         intervals [302]:
             xmin = 669.892 
             xmax = 673.396 
-            text = "sounding" 
+            text = "siajamik kiinaujalirijiqarsungalu miajimik" 
         intervals [303]:
             xmin = 673.396 
             xmax = 675.652 
@@ -7441,7 +7441,7 @@ item []:
         intervals [304]:
             xmin = 675.652 
             xmax = 677.204 
-            text = "sounding" 
+            text = "ai allatiuvunga" 
         intervals [305]:
             xmin = 677.204 
             xmax = 679.124 
@@ -7449,7 +7449,7 @@ item []:
         intervals [306]:
             xmin = 679.124 
             xmax = 681.044 
-            text = "sounding" 
+            text = "ai kiinaujalirijiuvunga" 
         intervals [307]:
             xmin = 681.044 
             xmax = 682.42 
@@ -7457,7 +7457,7 @@ item []:
         intervals [308]:
             xmin = 682.42 
             xmax = 683.46 
-            text = "sounding" 
+            text = "aa aa" 
         intervals [309]:
             xmin = 683.46 
             xmax = 685.476 
@@ -7465,7 +7465,7 @@ item []:
         intervals [310]:
             xmin = 685.476 
             xmax = 686.356 
-            text = "sounding" 
+            text = "katimajiillu" 
         intervals [311]:
             xmin = 686.356 
             xmax = 687.524 
@@ -7473,7 +7473,7 @@ item []:
         intervals [312]:
             xmin = 687.524 
             xmax = 688.708 
-            text = "sounding" 
+            text = "ilinniatitsijiillu" 
         intervals [313]:
             xmin = 688.708 
             xmax = 689.268 
@@ -7481,23 +7481,23 @@ item []:
         intervals [314]:
             xmin = 689.268 
             xmax = 691.508 
-            text = "sounding" 
+            text = "qaituarpata pigialangasivugut" 
         intervals [315]:
             xmin = 691.508 
-            xmax = 693.332 
+            xmax = 693.148761888398 
             text = "silent" 
         intervals [316]:
-            xmin = 693.332 
+            xmin = 693.148761888398 
             xmax = 696.196 
-            text = "sounding" 
+            text = "itirmata katimajiillu ilinniatittsijiillu" 
         intervals [317]:
             xmin = 696.196 
-            xmax = 697.684 
+            xmax = 697.4867657149285 
             text = "silent" 
         intervals [318]:
-            xmin = 697.684 
+            xmin = 697.4867657149285 
             xmax = 698.324 
-            text = "sounding" 
+            text = "itsivagitsi" 
         intervals [319]:
             xmin = 698.324 
             xmax = 699.076 
@@ -7505,7 +7505,7 @@ item []:
         intervals [320]:
             xmin = 699.076 
             xmax = 699.364 
-            text = "sounding" 
+            text = "aa" 
         intervals [321]:
             xmin = 699.364 
             xmax = 700.324 
@@ -7513,7 +7513,7 @@ item []:
         intervals [322]:
             xmin = 700.324 
             xmax = 700.644 
-            text = "sounding" 
+            text = "aa" 
         intervals [323]:
             xmin = 700.644 
             xmax = 702.692 
@@ -7521,7 +7521,7 @@ item []:
         intervals [324]:
             xmin = 702.692 
             xmax = 706.18 
-            text = "sounding" 
+            text = "ilinniatiit ilinnialaartut alliriirpata" 
         intervals [325]:
             xmin = 706.18 
             xmax = 706.9639999999999 
@@ -7529,31 +7529,31 @@ item []:
         intervals [326]:
             xmin = 706.9639999999999 
             xmax = 708.468 
-            text = "sounding" 
+            text = "sitimpiri 20-mi" 
         intervals [327]:
             xmin = 708.468 
             xmax = 709.588 
             text = "silent" 
         intervals [328]:
             xmin = 709.588 
-            xmax = 710.676 
-            text = "sounding" 
+            xmax = 710.9798205618674 
+            text = "qanga nurqalaarqat" 
         intervals [329]:
-            xmin = 710.676 
-            xmax = 712.244 
+            xmin = 710.9798205618674 
+            xmax = 712.0709748986021 
             text = "silent" 
         intervals [330]:
-            xmin = 712.244 
+            xmin = 712.0709748986021 
             xmax = 717.268 
-            text = "sounding" 
+            text = "sivullipaami quviasuvvimi tisimpiri 19-mi nurqalaartut" 
         intervals [331]:
             xmin = 717.268 
-            xmax = 718.58 
+            xmax = 718.293144399709 
             text = "silent" 
         intervals [332]:
-            xmin = 718.58 
+            xmin = 718.293144399709 
             xmax = 721.14 
-            text = "sounding" 
+            text = "qatsungurpat pigiaqattalangavat ilinniatiit" 
         intervals [333]:
             xmin = 721.14 
             xmax = 722.116 
@@ -7561,7 +7561,7 @@ item []:
         intervals [334]:
             xmin = 722.116 
             xmax = 724.388 
-            text = "sounding" 
+            text = "9-nngupat ullaakut pigiarlutik" 
         intervals [335]:
             xmin = 724.388 
             xmax = 726.26 
@@ -7569,7 +7569,7 @@ item []:
         intervals [336]:
             xmin = 726.26 
             xmax = 728.82 
-            text = "sounding" 
+            text = "4-nngumut unnusakkut nurqalutik" 
         intervals [337]:
             xmin = 728.82 
             xmax = 729.556 
@@ -7577,7 +7577,7 @@ item []:
         intervals [338]:
             xmin = 729.556 
             xmax = 732.18 
-            text = "sounding" 
+            text = "taakkua ilinniatitsijiit inuttitut" 
         intervals [339]:
             xmin = 732.18 
             xmax = 732.98 
@@ -7585,15 +7585,15 @@ item []:
         intervals [340]:
             xmin = 732.98 
             xmax = 733.572 
-            text = "sounding" 
+            text = "paasalu" 
         intervals [341]:
             xmin = 733.572 
-            xmax = 734.436 
+            xmax = 734.2901854286155 
             text = "silent" 
         intervals [342]:
-            xmin = 734.436 
+            xmin = 734.2901854286155 
             xmax = 735.012 
-            text = "sounding" 
+            text = "annilu" 
         intervals [343]:
             xmin = 735.012 
             xmax = 735.588 
@@ -7601,23 +7601,23 @@ item []:
         intervals [344]:
             xmin = 735.588 
             xmax = 736.26 
-            text = "sounding" 
+            text = "paulusilu" 
         intervals [345]:
             xmin = 736.26 
             xmax = 737.508 
             text = "silent" 
         intervals [346]:
             xmin = 737.508 
-            xmax = 740.82 
-            text = "sounding" 
+            xmax = 741.050019612289 
+            text = "ilinniatiit mikinirpaat inuttitut ilinnialaartut" 
         intervals [347]:
-            xmin = 740.82 
+            xmin = 741.050019612289 
             xmax = 741.636 
             text = "silent" 
         intervals [348]:
             xmin = 741.636 
             xmax = 743.508 
-            text = "sounding" 
+            text = "ilinniatitsijiqarlutik paasamik" 
         intervals [349]:
             xmin = 743.508 
             xmax = 744.916 
@@ -7625,7 +7625,7 @@ item []:
         intervals [350]:
             xmin = 744.916 
             xmax = 748.516 
-            text = "sounding" 
+            text = "ilinniatiit anginirsait ilinniatitsijiqalaartut" 
         intervals [351]:
             xmin = 748.516 
             xmax = 749.076 
@@ -7633,7 +7633,7 @@ item []:
         intervals [352]:
             xmin = 749.076 
             xmax = 749.572 
-            text = "sounding" 
+            text = "Annimik" 
         intervals [353]:
             xmin = 749.572 
             xmax = 751.492 
@@ -7641,7 +7641,7 @@ item []:
         intervals [354]:
             xmin = 751.492 
             xmax = 755.556 
-            text = "sounding" 
+            text = "ilinniatitsiqattalaartunga maqainnimillu maqaigutinillu" 
         intervals [355]:
             xmin = 755.556 
             xmax = 757.188 
@@ -7649,7 +7649,7 @@ item []:
         intervals [356]:
             xmin = 757.188 
             xmax = 759.636 
-            text = "sounding" 
+            text = "ilinniatiit qanga qaiqujaulaarqat" 
         intervals [357]:
             xmin = 759.636 
             xmax = 760.836 
@@ -7657,7 +7657,7 @@ item []:
         intervals [358]:
             xmin = 760.836 
             xmax = 762.932 
-            text = "sounding" 
+            text = "ullumiluunniit qauppaluunniit" 
         intervals [359]:
             xmin = 762.932 
             xmax = 763.572 
@@ -7665,7 +7665,7 @@ item []:
         intervals [360]:
             xmin = 763.572 
             xmax = 764.58 
-            text = "sounding" 
+            text = "qaiqujaugunnatut" 
         intervals [361]:
             xmin = 764.58 
             xmax = 765.62 
@@ -7673,17 +7673,17 @@ item []:
         intervals [362]:
             xmin = 765.62 
             xmax = 768.18 
-            text = "sounding" 
+            text = "ullumi qaiqujautuarpata piujuq" 
         intervals [363]:
             xmin = 768.18 
             xmax = 769.316 
             text = "silent" 
         intervals [364]:
             xmin = 769.316 
-            xmax = 773.7 
-            text = "sounding" 
+            xmax = 773.8783814687768 
+            text = "ullumi qaiqujaulangajut ilinniatitsijinnut takujaulutik" 
         intervals [365]:
-            xmin = 773.7 
+            xmin = 773.8783814687768 
             xmax = 774.436 
             text = "silent" 
         intervals [366]:
