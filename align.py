@@ -23,6 +23,8 @@
 # align.py: text/speech alignment for speech production experiments
 # Kyle Gorman <kgorman@ling.upenn.edu>, Michael Wagner <chael@mcgill.ca>
 # 
+# Requires Python 2.5-2.7; not compatible with earlier versions or Python 3.
+# 
 # See README.md for usage information and a tutorial.
 # 
 # This project was funded by: 
@@ -30,6 +32,8 @@
 # FQRSC Nouvelle Chercheur NP-132516
 # SSHRC Digging into Data Challenge Grant 869-2009-0004
 # SSHRC Canada Research Chair 218503
+
+from __future__ import with_statement        # compatible with python 2.5 and later
 
 import os
 import re
@@ -45,7 +49,7 @@ from getopt import getopt, GetoptError
 from subprocess import call, Popen, PIPE
 
 # should be in the current directory
-from textgrid import MLF   
+from textgrid import MLF
 # http://github.com/kylebgorman/textgrid.py/
 from prontosaurus import PronDict, BaseProjPronDict, RegularAffixes
 # http://github.com/kylebgorman/prontosaurus/
@@ -240,7 +244,7 @@ class Aligner(object):
         found_words = set()
         with open(self.word_mlf, 'w') as word_mlf:
             ood = defaultdict(list)
-            word_mlf.write('#!MLF!#\n')
+            print >> word_mlf, '#!MLF!#'
             for lab in lab_list:
                 lab_name = os.path.split(lab)[1]
                 # new lab file at the phone level, in self.aud_dir
@@ -248,20 +252,20 @@ class Aligner(object):
                 # new lab file at the word level, in self.lab_dir
                 word_lab = open(os.path.join(self.lab_dir, lab_name), 'w')
                 # .mlf headers
-                word_mlf.write('"{0}"\n'.format(word_lab.name))
+                print >> word_mlf, '"{0}"'.format(word_lab.name)
                 # sil
-                phon_lab.write('{0}\n'.format(sil))
+                print >> phon_lab, sil
+                # look up words
                 for word in open(lab, 'r').readline().rstrip().split():
                     if word in self.the_dict:
                         found_words.add(word)
-                        for phon in self.the_dict[word]:
-                            phon_lab.write('{0}\n'.format(phon))
+                        print >> phon_lab, '\n'.join(self.the_dict[word][0])
                         word_lab.write('{0} '.format(word))
-                        word_mlf.write('{0}\n'.format(word))
+                        print >> word_mlf, word
                     else:
                         ood[word].append(lab)
-                phon_lab.write('{0}\n'.format(sil))
-                word_mlf.write('.\n')
+                print >> phon_lab, sil
+                print >> word_mlf, '.'
                 phon_lab.close()
                 word_lab.close()
         ## now complain if any found
@@ -271,7 +275,7 @@ class Aligner(object):
                     for (word, flist) in ood.iteritems():
                         print >> sink, '{0}\t{1}'.format(word, ' '.join(flist))
                 else:
-                    for word in self.the_dict.ood:
+                    for word in ood:
                         print >> sink, word
             error('Out of dictionary word(s), see {0}', outofdict)
         ## make word
@@ -281,13 +285,16 @@ class Aligner(object):
         open(ded, 'w').write("""AS {0}\nMP {1} {1} {0}""".format(sp, sil))
         call(['HDMan', '-m', '-g', ded, '-w', self.words, '-n', self.phons, 
                                               self.taskdict, self.dictionary])
+        # add sil
+        print >> open(self.phons, 'a'), '{0}'.format(sil)
         ## add sil and projected words to self.taskdict
         with open(self.taskdict, 'a') as sink:
-            print >> sink, 'sil sil'
-            for (key, pronlist) in self.the_dict.projected.iteritems():
-                for pron in pronlist:
-                    print >> sink, '{0} {1}'.format(key, 
-                                             ' '.join(pron + ['sp']))
+            print >> sink, '{0} {1}'.format(sil, sil)
+            if hasattr(self.the_dict, 'projected'):
+                for (key, pronlist) in self.the_dict.projected.iteritems():
+                    for pron in pronlist:
+                        print >> sink, '{0} {1}'.format(key, 
+                                       ' '.join(pron + ['sp']))
         ## run HLEd
         led = os.path.join(self.tmp_dir, temp)
         open(led, 'w').write('EX\nIS {1} {1}\nDE {0}\n'.format(sp, sil))
@@ -378,7 +385,7 @@ NUMCEPS = 12""")
         i = 0
         sink = open(score, 'w')
         for line in Popen(['HVite', '-T', '1', '-a', '-m', '-y', 'lab', 
-                       '-o', 'SM', '-b', sil, '-i', mlf, '-L', self.lab_dir, 
+                       '-o', 'SM', '-b', sil, '-i', mlf, '-L', self.lab_dir,
                        '-C', self.cfg, '-S', self.test_scp,
                        '-H', os.path.join(self.cur_dir, macro),
                        '-H', os.path.join(self.cur_dir, hmmdf),
@@ -441,7 +448,7 @@ class TrainAligner(Aligner):
  0.0 0.0 0.6 0.4 0.0
  0.0 0.0 0.0 0.7 0.3
  0.0 0.0 0.0 0.0 0.0
-<ENDHMM>""")
+<ENDHMM>\n""")
         sink.close()
         ## make vFloors
         call(['HCompV', '-f', str(f), '-C', self.cfg, '-S', self.train_scp,
@@ -562,7 +569,7 @@ TI silst {{{1}.state[3],{0}.state[2]}}
                             os.path.join(self.cur_dir, hmmdf), '-M', 
                                          self.nxt_dir, hed, self.phons])
         #FIXME this seems to not be necessary, but I'm not sure why.
-        """ 
+        """
         # run HLEd
         sink = open(temp, 'w')
         sink.write('EX\nIS {0} {0}\n'.format(sil))
