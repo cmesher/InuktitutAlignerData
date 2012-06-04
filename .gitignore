@@ -3,6 +3,7 @@
 *.swp
 .dat/*
 *.mp3
+*.wav
 *.DS_store
 
 
