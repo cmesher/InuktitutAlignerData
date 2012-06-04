@@ -1,7 +1,0 @@
-To include a copy of a Sound in your TextGrid editor:
-   select a TextGrid and a Sound, and click "View & Edit".
-soundname, nsyll, npause, dur (s), phonationtime (s), speechrate (nsyll/dur), articulation rate (nsyll / phonationtime), ASD (speakingtime/nsyll)
-Conversation_inuit_-_9-11, 1578, 182, 776.76, 407.58, 2.03, 3.87, 0.258
-Conversation_inuit_-1-4, 1657, 243, 842.52, 451.65, 1.97, 3.67, 0.273
-Conversation_inuit_-12-14, 2139, 250, 1012.58, 575.01, 2.11, 3.72, 0.269
-Conversation_inuit_-5-8, 1890, 274, 991.97, 476.14, 1.91, 3.97, 0.252

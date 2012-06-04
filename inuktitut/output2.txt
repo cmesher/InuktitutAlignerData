@@ -1,6 +1,0 @@
-soundname, nsyll, npause, dur (s), phonationtime (s), speechrate (nsyll/dur), articulation rate (nsyll / phonationtime), ASD (speakingtime/nsyll)
-soundname, nsyll, npause, dur (s), phonationtime (s), speechrate (nsyll/dur), articulation rate (nsyll / phonationtime), ASD (speakingtime/nsyll)
-Conversation_inuit_-_9-11, 1547, 329, 776.76, 358.96, 1.99, 4.31, 0.232
-Conversation_inuit_-1-4, 1623, 357, 842.52, 413.10, 1.93, 3.93, 0.255
-Conversation_inuit_-12-14, 2101, 424, 1012.58, 516.48, 2.07, 4.07, 0.246
-Conversation_inuit_-5-8, 1857, 399, 991.97, 433.58, 1.87, 4.28, 0.233
