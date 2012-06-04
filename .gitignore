@@ -6,8 +6,10 @@
 *.wav
 *.DS_store
 
-
+dictionary.txt
+outofdict.txt
+unpaired.txt
 sample_english_data
-*.bz
+*.bz2
 *.zip
 *.tar
