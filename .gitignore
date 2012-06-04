@@ -1,5 +1,12 @@
 .ALIGN.mlf
 .SCORES.txt
+*.swp
 .dat/*
 *.mp3
 *.DS_store
+
+
+sample_english_data
+*.bz
+*.zip
+*.tar
