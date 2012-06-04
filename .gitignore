@@ -1,2 +1,5 @@
+.ALIGN.mlf
+.SCORES.txt
+.dat/*
 *.mp3
 *.DS_store
